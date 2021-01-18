@@ -1,6 +1,5 @@
 Source: torrenttools
 Priority: optional
-Format: 3.0 (quilt)
 Section: net
 Maintainer: Florian De Temmerman <floriandetemmerman@gmail.com>
 Build-Depends: debhelper (>=12~), git, cmake, libstdc++-10-dev, g++-10, debhelper (>=12~), git, cmake, libstdc++-10-dev, g++-10
