@@ -1,0 +1,14 @@
+Source: torrenttools
+Section: unknown
+Priority: optional
+Maintainer: Florian De Temmerman <floriandetemmerman@gmail.com>
+Build-Depends: debhelper (>=12~), git, cmake, libstdc++-10-dev, g++-10, debhelper (>=12~), git, cmake, libstdc++-10-dev, g++-10
+Standards-Version: 4.0.0
+Homepage: https://www.github.com/fbdtemme/torrenttools
+
+Package: torrenttools
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A commandline tool for creating, inspecting and modifying bittorrent metafiles.
+
